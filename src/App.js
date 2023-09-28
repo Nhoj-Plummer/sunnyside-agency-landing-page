@@ -1,7 +1,12 @@
 import "./App.css"
+import {HeroSection} from "./containers/containersindex"
 
 function App() {
-  return <></>
+  return (
+    <>
+      <HeroSection />
+    </>
+  )
 }
 
 export default App
