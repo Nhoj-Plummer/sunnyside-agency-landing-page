@@ -4,7 +4,14 @@
   --font-family-1: "Barlow", sans-serif;
   --font-family-2: "Fraunces", sans-serif;
 
-  /* Colors  */
+  /* Primary Colors */
+  --color-sr: hsl(7, 99%, 70%);
+  --color-y: hsl(51, 100%, 49%);
+  --color-ddc: hsl(167, 40%, 24%);
+  --color-db: hsl(198, 62%, 26%);
+  --color-dmc: hsl(168, 34%, 41%);
+
+  /* Neutral Colors  */
   --color-vddb: hsl(212, 27%, 19%);
   --color-vdgb: hsl(213, 9%, 39%);
   --color-dgb: hsl(232, 10%, 55%);
