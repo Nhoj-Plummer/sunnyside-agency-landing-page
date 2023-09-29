@@ -4,9 +4,11 @@ import "./HeroSection.css"
 
 const HeroSection = () => {
   return (
-    <div>
-      <Navbar />
-      HeroSection
+    <div className="hero-section_container">
+      <div className="hero-section_image">
+        <Navbar />
+        HeroSection
+      </div>
     </div>
   )
 }

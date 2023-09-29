@@ -1,0 +1,29 @@
+.hero-section_container {
+  border: 1px solid;
+  height: 600px;
+}
+
+.hero-section_image {
+  height: 100%;
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  .hero-section_image {
+    background: url("../../assets/mobile/image-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
+  .hero-section_image {
+    background: url("../../assets/desktop/image-header.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
