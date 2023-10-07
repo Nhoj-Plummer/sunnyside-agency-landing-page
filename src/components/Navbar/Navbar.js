@@ -11,10 +11,10 @@ const Menu = () => (
       <a href="#services">Services</a>
     </p>
     <p>
-      <a href="#careers">Careers</a>
+      <a href="#projects">Projects</a>
     </p>
     <p>
-      <a href="#about"> About</a>
+      <a href="#contact"> Contact</a>
     </p>
   </>
 )

@@ -1,19 +1,40 @@
+/* Global Rules */
 .navbar-container {
   display: flex;
   padding: 20px;
- 
+  font-family: var(--font-family-2);
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
   border: 1px solid;
 }
 
+/* Contact Nav Item Rules */
+.navbar-container p:nth-child(4) {
+  border-radius: 2rem;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: 1px solid;
+}
+
+.navbar-container a {
+  text-decoration: none;
+  color: var(--color-w);
+}
+
+/* Dekstop Rules */
 .navbar-desktop-container {
   display: flex;
+  margin-left: auto;
+  align-items: center;
   border: 1px solid;
 }
 
-
-.navbar-mobile-toggle{
-  
+.navbar-desktop-container p {
+  margin-left: 4rem;
 }
+
+
 
 /* Conditional Section */
 /* Mobile Rules */
