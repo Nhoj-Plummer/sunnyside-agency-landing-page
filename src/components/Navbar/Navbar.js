@@ -14,7 +14,9 @@ const Menu = () => (
       <a href="#project">Project</a>
     </p>
     <p>
-      <a href="#contact">CONTACT</a>
+      <span>
+        <a href="#contact">CONTACT</a>
+      </span>
     </p>
   </>
 )
@@ -35,8 +37,8 @@ const Navbar = () => {
 
       {/* Mobile Navbar */}
       <div className="navbar-mobile-container">
-        <div className="navbar-mobile_toggle">{toggleMenu ? <img src={GlobalHamburger} alt="off" onClick={() => setToggleMenu(false)} /> : <img src={GlobalHamburger} alt="on" onClick={() => setToggleMenu(true)} />}</div>
-        <div className="navbar-mobile_menu">
+        <div className="navbar-mobile-toggle">{toggleMenu ? <img src={GlobalHamburger} alt="off" onClick={() => setToggleMenu(false)} /> : <img src={GlobalHamburger} alt="on" onClick={() => setToggleMenu(true)} />}</div>
+        <div className="navbar-mobile-menu">
           <Menu />
         </div>
       </div>

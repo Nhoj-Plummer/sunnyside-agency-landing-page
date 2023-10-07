@@ -27,6 +27,10 @@
   color: var(--color-w);
 }
 
+.navbar-container p span a {
+  color: var(--color-vddb);
+}
+
 /* Dekstop Rules */
 .navbar-desktop-container {
   display: flex;
@@ -43,7 +47,7 @@
 .navbar-mobile_toggle {
 }
 
-.navbar-mobile_menu {
+.navbar-mobile-menu {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,21 +56,18 @@
   right: 5%;
   top: 12%;
   background: var(--color-w);
+  height: 40%;
   width: 90%;
-  clip-path: polygon(90% 10%, 100% 0, 100% 100%, 0 100%, 0 10%);
+  clip-path: polygon(89% 15%, 100% 0, 100% 100%, 0 100%, 0 15%);
   border: 1px solid;
 }
 
-.navbar-mobile_menu p {
+.navbar-mobile-menu p {
   margin-top: 1.5rem;
 }
 
-.navbar-mobile_menu a {
+.navbar-mobile-menu a {
   color: var(--color-gb);
-}
-
-.navbar-mobile_menu p:nth-child(4) {
-  margin-bottom: 1.5rem;
 }
 
 /* Conditional Section */
