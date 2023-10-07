@@ -6,36 +6,28 @@
   font-size: 18px;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid;
 }
 
-.navbar-container ul {
-  display: flex;
-  list-style-type: none;
-  margin: 0px;
-  padding: 0px;
-  justify-content: center;
-  align-items: center;
+/* Contact Nav Item Rules */
+.navbar-container p:nth-child(4) {
+  font-family: var(--font-family-2);
+  border-radius: 2rem;
+  padding: 10px 20px;
+  font-weight: 700;
+  border: 1px solid;
 }
 
-.navbar-container li {
-  margin-left: 2.5rem;
+.navbar-container p {
   border: 1px solid;
 }
 
 .navbar-container a {
   text-decoration: none;
+  color: var(--color-w);
 }
 
-/* Contact Nav Item Rules */
-.navbar-container li:nth-child(4) {
-  font-family: var(--font-family-2);
-  border-radius: 2rem;
-  padding: 10px 20px;
-  font-weight: 700;
-}
-
-
-/* Desktop Rules */
+/* Dekstop Rules */
 .navbar-desktop-container {
   display: flex;
   margin-left: auto;
@@ -43,45 +35,38 @@
   border: 1px solid;
 }
 
-.navbar-desktop-container a {
-  color: var(--color-w);
+.navbar-desktop-container p {
+  margin-left: 4rem;
 }
 
-
-
 /* Mobile Rules */
-.navbar-mobile_menu ul {
+.navbar-mobile_toggle {
+}
+
+.navbar-mobile_menu {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   position: absolute;
   right: 5%;
-  top: 10%;
+  top: 12%;
   background: var(--color-w);
-  height: 35%;
   width: 90%;
   clip-path: polygon(90% 10%, 100% 0, 100% 100%, 0 100%, 0 10%);
+  border: 1px solid;
 }
 
-.navbar-mobile_menu li:nth-child(1) {
-  margin-top: 3rem;
-}
-.navbar-mobile_menu p:nth-child(2),
-.navbar-mobile_menu p:nth-child(3),
-.navbar-mobile_menu p:nth-child(4) {
+.navbar-mobile_menu p {
   margin-top: 1.5rem;
-}
-
-.navbar-mobile_menu p:nth-child(4) {
-  background-color: var(--color-y);
 }
 
 .navbar-mobile_menu a {
   color: var(--color-gb);
 }
 
-.navbar-mobile_menu a:nth-last-child(1) {
-  color: var(--color-vddb);
+.navbar-mobile_menu p:nth-child(4) {
+  margin-bottom: 1.5rem;
 }
 
 /* Conditional Section */

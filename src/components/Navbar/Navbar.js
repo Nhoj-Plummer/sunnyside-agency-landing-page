@@ -4,20 +4,18 @@ import {GlobalLogo, GlobalHamburger} from "../../assets/assetsglobal"
 
 const Menu = () => (
   <>
-    <ul>
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li>
-        <a href="#services">Services</a>
-      </li>
-      <li>
-        <a href="#projects">Projects</a>
-      </li>
-      <li>
-        <a href="#Contact">Contact</a>
-      </li>
-    </ul>
+    <p>
+      <a href="#about">About</a>
+    </p>
+    <p>
+      <a href="#services">Services</a>
+    </p>
+    <p>
+      <a href="#project">Project</a>
+    </p>
+    <p>
+      <a href="#contact">CONTACT</a>
+    </p>
   </>
 )
 
