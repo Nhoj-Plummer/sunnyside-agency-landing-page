@@ -2,7 +2,7 @@
 .navbar-container {
   display: flex;
   padding: 20px;
-  font-family: var(--font-family-2);
+  font-family: var(--font-family-1);
   font-size: 18px;
   justify-content: space-between;
   align-items: center;
@@ -11,9 +11,14 @@
 
 /* Contact Nav Item Rules */
 .navbar-container p:nth-child(4) {
+  font-family: var(--font-family-2);
   border-radius: 2rem;
   padding: 10px 20px;
   font-weight: 700;
+  border: 1px solid;
+}
+
+.navbar-container p {
   border: 1px solid;
 }
 
@@ -34,7 +39,35 @@
   margin-left: 4rem;
 }
 
+/* Mobile Rules */
+.navbar-mobile_toggle {
+}
 
+.navbar-mobile_menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 5%;
+  top: 12%;
+  background: var(--color-w);
+  width: 90%;
+  clip-path: polygon(90% 10%, 100% 0, 100% 100%, 0 100%, 0 10%);
+  border: 1px solid;
+}
+
+.navbar-mobile_menu p {
+  margin-top: 1.5rem;
+}
+
+.navbar-mobile_menu a{
+  color: var(--color-gb);
+}
+
+.navbar-mobile_menu p:nth-child(4) {
+  margin-bottom: 1.5rem;
+}
 
 /* Conditional Section */
 /* Mobile Rules */
@@ -46,7 +79,7 @@
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
-  .navbar-mobile-toggle {
+  .navbar-mobile-container {
     display: none;
   }
 }
