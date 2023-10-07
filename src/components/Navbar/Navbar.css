@@ -18,13 +18,16 @@
   border: 1px solid;
 }
 
+.navbar-container a:nth-child(4) {
+  color: red;
+}
+
 .navbar-container p {
   border: 1px solid;
 }
 
 .navbar-container a {
   text-decoration: none;
-  color: var(--color-w);
 }
 
 /* Dekstop Rules */
@@ -39,34 +42,50 @@
   margin-left: 4rem;
 }
 
-/* Mobile Rules */
-.navbar-mobile_toggle {
+.navbar-desktop-container p:nth-child(4) {
+  background: var(--color-w);
 }
 
+.navbar-desktop-container a {
+  color: var(--color-w);
+}
+
+
+
+/* Mobile Rules */
 .navbar-mobile_menu {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   position: absolute;
   right: 5%;
-  top: 12%;
+  top: 10%;
   background: var(--color-w);
+  height: 35%;
   width: 90%;
   clip-path: polygon(90% 10%, 100% 0, 100% 100%, 0 100%, 0 10%);
   border: 1px solid;
 }
 
-.navbar-mobile_menu p {
+.navbar-mobile_menu p:nth-child(1) {
+  margin-top: 3rem;
+}
+.navbar-mobile_menu p:nth-child(2),
+.navbar-mobile_menu p:nth-child(3),
+.navbar-mobile_menu p:nth-child(4) {
   margin-top: 1.5rem;
 }
 
-.navbar-mobile_menu a{
+.navbar-mobile_menu p:nth-child(4) {
+  background-color: var(--color-y);
+}
+
+.navbar-mobile_menu a {
   color: var(--color-gb);
 }
 
-.navbar-mobile_menu p:nth-child(4) {
-  margin-bottom: 1.5rem;
+.navbar-mobile_menu a:nth-last-child(1) {
+  color: var(--color-vddb);
 }
 
 /* Conditional Section */
