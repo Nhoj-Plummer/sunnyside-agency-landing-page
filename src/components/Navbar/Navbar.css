@@ -43,6 +43,10 @@
   margin-left: 4rem;
 }
 
+.navbar-desktop-container p:nth-child(4) {
+  background-color: var(--color-w);
+}
+
 /* Mobile Rules */
 .navbar-mobile_toggle {
 }
@@ -54,7 +58,7 @@
   align-items: center;
   position: absolute;
   right: 5%;
-  top: 12%;
+  top: 8%;
   background: var(--color-w);
   height: 40%;
   width: 90%;
@@ -64,6 +68,10 @@
 
 .navbar-mobile-menu p {
   margin-top: 1.5rem;
+}
+
+.navbar-mobile-menu p:nth-child(4) {
+  background-color: var(--color-y);
 }
 
 .navbar-mobile-menu a {
