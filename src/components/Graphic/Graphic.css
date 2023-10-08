@@ -16,8 +16,15 @@
   max-width: 100%;
 }
 
+.graphic-container_image:first-child {
+  order: 2;
+  background-color: var(--color-y);
+}
+
 .graphic-container_text {
   flex: 1;
+  display: flex;
+  flex-direction: column;
 }
 
 .graphic-container_text h1,
@@ -26,7 +33,7 @@
   border: 1px solid;
 }
 
-.graphic-container_text .graphic-container_text h1,
+.graphic-container_text h1,
 .graphic-container_text a {
   font-family: var(--font-family-2);
   color: var(--color-vddb);
@@ -38,6 +45,7 @@
   color: var(--color-dgb);
   font-size: 18px;
   font-family: var(--font-family-1);
+  line-height: 25px;
 }
 
 .graphic-container_text span a {
@@ -52,9 +60,24 @@
   }
 
   .graphic-container_text {
+    text-align: center;
   }
 
   .graphic-container_text h1 {
+    width: 80%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .graphic-container p {
+    width: 90%;
+    margin: auto;
+    margin-top: 2rem;
+  }
+
+  .graphic-container_text span {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }
 
   /* .graphic-container_image {
@@ -64,4 +87,20 @@
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
+  .graphic-container_text{
+    
+  }
+
+  .graphic-container_text h1 {
+    margin-top: 8rem;
+   width: 30%;
+  }
+
+  .graphic-container p {
+    width: 50%;
+  }
+
+  .graphic-container_text span {
+    
+  }
 }
