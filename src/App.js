@@ -1,10 +1,11 @@
 import "./App.css"
-import {HeroSection} from "./containers/containersindex"
+import {HeroSection, Body} from "./containers/containersindex"
 
 function App() {
   return (
     <>
       <HeroSection />
+      <Body />
     </>
   )
 }
