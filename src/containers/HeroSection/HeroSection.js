@@ -9,7 +9,7 @@ const HeroSection = () => {
       <div className="hero-section_image">
         <Navbar />
         <div className="hero-section_text">
-          <h1>We Are Creatives</h1>
+          <h1>WE ARE CREATIVES</h1>
           <img alt="arrow" src={GlobalArrowDown} />
         </div>
       </div>
