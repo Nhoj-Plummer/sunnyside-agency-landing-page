@@ -48,9 +48,6 @@
 }
 
 /* Mobile Rules */
-.navbar-mobile_toggle {
-}
-
 .navbar-mobile-menu {
   display: flex;
   flex-direction: column;
