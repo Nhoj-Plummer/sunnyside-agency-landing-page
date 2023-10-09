@@ -16,10 +16,10 @@
   max-width: 100%;
 }
 
-.graphic-container_image:first-child {
+/* .graphic-container_image:nth-child(1) {
   order: 2;
   background-color: var(--color-y);
-}
+} */
 
 .graphic-container_text {
   flex: 1;
@@ -49,6 +49,7 @@
 }
 
 .graphic-container_text span a {
+  font-weight: 900;
   text-decoration: none;
 }
 
@@ -87,13 +88,19 @@
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
-  .graphic-container_text{
-    
+ 
+  .graphic-container_text h1,
+  .graphic-container_text p,
+  .graphic-container_text a {
+    margin: 0 12rem 2rem ;
   }
 
   .graphic-container_text h1 {
     margin-top: 8rem;
-   width: 30%;
+    font-size: 53px;
+    width: 55%;
+   
+    
   }
 
   .graphic-container p {
@@ -101,6 +108,5 @@
   }
 
   .graphic-container_text span {
-    
   }
 }
