@@ -6,6 +6,7 @@ const Body2 = () => {
   return (
     <div className="body2-container">
       <Graphic2 />
+      
     </div>
   )
 }

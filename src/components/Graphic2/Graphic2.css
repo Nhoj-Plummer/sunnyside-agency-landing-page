@@ -1,0 +1,19 @@
+.graphic2-container {
+  flex: 1;
+  border: 1px solid;
+}
+
+.graphic2-container_image img {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
+}

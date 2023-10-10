@@ -1,0 +1,12 @@
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  .body2-container {
+    flex-direction: column;
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
+}
