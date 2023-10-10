@@ -81,9 +81,7 @@
     margin-bottom: 2rem;
   }
 
-  /* .graphic-container_image {
-    background: url("../../assets/mobile/image-transform.jpg");
-  } */
+
 }
 
 /* Desktop Rules */
@@ -105,8 +103,5 @@
 
   .graphic-container p {
     width: 50%;
-  }
-
-  .graphic-container_text span {
   }
 }

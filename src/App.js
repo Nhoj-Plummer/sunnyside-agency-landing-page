@@ -1,11 +1,12 @@
 import "./App.css"
-import {HeroSection, Body} from "./containers/containersindex"
+import {HeroSection, Body, Body2} from "./containers/containersindex"
 
 function App() {
   return (
     <>
       <HeroSection />
       <Body />
+      <Body2 />
     </>
   )
 }
