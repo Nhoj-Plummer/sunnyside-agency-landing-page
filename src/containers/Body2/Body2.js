@@ -30,12 +30,12 @@ function useWindowDimensions() {
 const Body2 = () => {
   const {width} = useWindowDimensions()
 
-  const graphicStyle1 = {backgroundImage: width > 540 ? `url(${DesktopBlueOrange})`: `url(${MobileBlueOrange})`}
+  const graphicStyle1 = {backgroundImage: width > 540 ? `url(${DesktopBlueOrange})` : `url(${MobileBlueOrange})`}
 
   return (
     <div className="body2-container">
-      <Graphic2 imageStyle={graphicStyle1} />
       <Graphic2 />
+      <Graphic2 imageStyle={graphicStyle1} />
     </div>
   )
 }
