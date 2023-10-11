@@ -30,7 +30,7 @@ function useWindowDimensions() {
 const Body2 = () => {
   const {width} = useWindowDimensions()
 
-  const graphicStyle1 = {background: {DesktopBlueOrange}}
+  const graphicStyle1 = {backgroundImage: `url(${DesktopBlueOrange})`}
 
   return (
     <div className="body2-container">
