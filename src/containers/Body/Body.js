@@ -28,7 +28,7 @@ function useWindowDimensions() {
 }
 
 const Body = () => {
-  const {height, width} = useWindowDimensions()
+  const { width} = useWindowDimensions()
 
   console.log(width)
 

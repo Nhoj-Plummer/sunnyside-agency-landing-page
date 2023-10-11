@@ -3,10 +3,18 @@
   border: 1px solid;
 }
 
-.graphic2-container_image img {
-  display: block;
-  max-height: 100%;
-  max-width: 100%;
+.graphic2-container_image {
+  /* height: 100%; */
+  background: url("../../assets/desktop/image-graphic-design.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.graphic2-container_text {
+  text-align: center;
+  height: 62.5rem;
+  border: 1px solid;
 }
 
 /* Conditional Section */
