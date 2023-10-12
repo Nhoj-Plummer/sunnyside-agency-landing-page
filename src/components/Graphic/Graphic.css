@@ -1,13 +1,13 @@
 .graphic-container {
   display: flex;
-  border: 1px solid;
+ 
 }
 .graphic-container_image {
   flex: 1;
   display: flex;
   align-content: center;
   justify-content: center;
-  border: 1px solid;
+ 
 }
 
 .graphic-container_image img {
@@ -30,7 +30,7 @@
 .graphic-container_text h1,
 .graphic-container_text p,
 .graphic-container_text a {
-  border: 1px solid;
+ 
 }
 
 .graphic-container_text h1,

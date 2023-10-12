@@ -30,7 +30,7 @@ function useWindowDimensions() {
 const Body2 = () => {
   const {width} = useWindowDimensions()
 
-  const graphicStyle1 = {backgroundColor: "#9adaca",backgroundImage: width > 540 ? `url(${DesktopCherry})` : `url(${MobileCherry})`, color: "--color-ddc"}
+  const graphicStyle1 = {backgroundColor: "#9adaca", backgroundImage: width > 540 ? `url(${DesktopCherry})` : `url(${MobileCherry})`, color: "var(--color-ddc)"}
   const graphicStyle2 = {backgroundColor: "#4cc9ff", backgroundImage: width > 540 ? `url(${DesktopBlueOrange})` : `url(${MobileBlueOrange})`, color: "var(--color-db)"}
 
   return (
