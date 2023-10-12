@@ -1,3 +1,22 @@
 .reviews-container {
-  
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid;
+}
+
+.reviews-container h1 {
+  text-align: center;
+  width: 100%;
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  .reviews-container {
+    flex-direction: column;
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
 }

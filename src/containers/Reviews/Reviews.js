@@ -5,6 +5,7 @@ import "./Reviews.css"
 function Reviews() {
   return (
     <div className="reviews-container">
+      <h1>Client Testimonials</h1>
       <Client />
       <Client />
       <Client />
