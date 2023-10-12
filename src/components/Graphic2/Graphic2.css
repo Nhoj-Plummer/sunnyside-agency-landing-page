@@ -6,26 +6,48 @@
 .graphic2-container_image {
   /* height: 100%; */
   /* background: url("../../assets/desktop/image-graphic-design.jpg"); */
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  /* background-size: 100%; */
 }
 
 .graphic2-container_text {
   text-align: center;
-  height: 40rem;
+  height: 36rem;
   border: 1px solid;
 }
 
 .graphic2-container_text h1 {
+  margin-top: 24rem;
+  font-family: var(--font-family-2);
+  font-weight: 900;
+  border: 1px solid;
+}
+
+.graphic2-container_text p {
+  font-family: var(--font-family-1);
+  font-weight: 600;
+  
+  margin: 1rem auto auto auto;
+  line-height: 1.5rem;
   border: 1px solid;
 }
 
 /* Conditional Section */
 /* Mobile Rules */
 @media screen and (max-width: 540px) {
+  .graphic2-container_text p {
+    max-width: 93%;
+  }
 }
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
+  .graphic2-container_image {
+
+  }
+
+  .graphic2-container_text p{
+    max-width: 40%;
+  }
 }

@@ -1,8 +1,8 @@
 import React, {useState, useEffect} from "react"
 import "./Body2.css"
 import {Graphic2} from "../../components/componentsindex"
-import {DesktopBlueOrange} from "../../assets/desktop/assetsdesktop"
-import {MobileBlueOrange} from "../../assets/mobile/assetsmobile"
+import {DesktopBlueOrange, DesktopCherry} from "../../assets/desktop/assetsdesktop"
+import {MobileBlueOrange, MobileCherry} from "../../assets/mobile/assetsmobile"
 
 function getWindowDimensions() {
   const {innerWidth: width, innerHeight: height} = window
@@ -30,12 +30,13 @@ function useWindowDimensions() {
 const Body2 = () => {
   const {width} = useWindowDimensions()
 
-  const graphicStyle1 = {backgroundImage: width > 540 ? `url(${DesktopBlueOrange})` : `url(${MobileBlueOrange})`}
+  const graphicStyle1 = {backgroundColor: "var(--color-ddc)",backgroundImage: width > 540 ? `url(${DesktopCherry})` : `url(${MobileCherry})`, color: "--color-ddc"}
+  const graphicStyle2 = {backgroundColor: "#62ccfe", backgroundImage: width > 540 ? `url(${DesktopBlueOrange})` : `url(${MobileBlueOrange})`, color: "var(--color-db)"}
 
   return (
     <div className="body2-container">
-      <Graphic2 />
-      <Graphic2 imageStyle={graphicStyle1} />
+      <Graphic2 imageStyle={graphicStyle1} title={"Graphic Design"} text={"Great design makes you memorable, we deliver artworkthat underscoresyour brand message and captures potential clients' attention."} />
+      <Graphic2 imageStyle={graphicStyle2} title={"Photography"} text={"Increase your credibility by getting the most stunning, high-quality photos that improve your business image."} />
     </div>
   )
 }
