@@ -1,0 +1,45 @@
+.footer-container {
+  background-color: var(--color-dmc);
+  padding: 20px;
+}
+
+.footer-container h1 {
+  margin: auto;
+  color: var(--color-ddc);
+  font-family: var(--font-family-2);
+  font-weight: 900;
+  width: fit-content;
+}
+
+.footer-container_links {
+  margin: 2rem auto 0 auto;
+  width: fit-content;
+}
+
+.footer-container_links a {
+  color: var(--color-ddc);
+  font-family: var(--font-family-1);
+  font-weight: 600;
+  text-decoration: none;
+  margin: auto 2rem;
+}
+
+.footer-container_links a:hover {
+  color: var(--color-w);
+}
+
+.footer-container_image-links {
+  margin: 3rem auto 0 auto;
+  width: fit-content;
+}
+
+.footer-container_image-links img {
+  align-items: center;
+  vertical-align: middle;
+  margin: auto 1rem;
+  cursor: pointer;
+}
+
+.footer-container_image-links img:hover {
+  filter: brightness(0) saturate(100%) invert(99%) sepia(8%) saturate(5%) hue-rotate(292deg) brightness(117%) contrast(100%);
+}

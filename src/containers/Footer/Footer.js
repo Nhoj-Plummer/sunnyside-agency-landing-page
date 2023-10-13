@@ -7,9 +7,9 @@ const Footer = () => {
     <div className="footer-container">
       <h1>Sunnyside</h1>
       <div className="footer-container_links">
-        <a href="">About</a>
-        <a href="">Serives</a>
-        <a href="">Projects</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
       </div>
       <div className="footer-container_image-links">
         <img src={GlobalFacebook} alt="facebook" />
