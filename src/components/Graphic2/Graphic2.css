@@ -1,6 +1,5 @@
 .graphic2-container {
   flex: 1;
-  border: 1px solid;
 }
 
 .graphic2-container_image {
@@ -20,7 +19,6 @@
 .graphic2-container_text h1 {
   font-family: var(--font-family-2);
   font-weight: 900;
-  border: 1px solid;
 }
 
 .graphic2-container_text p {

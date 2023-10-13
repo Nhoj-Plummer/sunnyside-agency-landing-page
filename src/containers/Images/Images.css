@@ -1,12 +1,10 @@
 .images-container {
   display: flex;
-  border: 1px solid;
 }
 
 .images-container img {
   display: block;
   max-width: 100%;
-  border: 1px solid;
 }
 
 /* Mobile Rules */
