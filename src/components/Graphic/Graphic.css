@@ -16,22 +16,12 @@
   max-width: 100%;
 }
 
-/* .graphic-container_image:nth-child(1) {
-  order: 2;
-  background-color: var(--color-y);
-} */
-
 .graphic-container_text {
   flex: 1;
   display: flex;
   flex-direction: column;
 }
 
-.graphic-container_text h1,
-.graphic-container_text p,
-.graphic-container_text a {
- 
-}
 
 .graphic-container_text h1,
 .graphic-container_text a {
