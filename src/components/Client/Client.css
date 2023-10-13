@@ -1,6 +1,5 @@
 .client-container {
   flex: 1;
-  text-align: center;
   border: 1px solid;
 }
 
@@ -14,4 +13,31 @@
   margin: auto;
   transform: scale(0.5);
   border: 1px solid red;
+}
+
+.client-container_text {
+  text-align: center;
+  border: 1px solid blue;
+}
+
+.client-container_text  p {
+  font-family: var(--font-family-1);
+  font-weight: 600;
+  margin: auto;
+ 
+  line-height: 1.5rem;
+  color: var(--color-vdgb);
+  border: 1px solid;
+}
+
+/* Conditional Section */
+/* Mobile Rules */
+@media screen and (max-width: 540px) {
+  .client-container_text  p {
+    width: 80%;
+  }
+}
+
+/* Desktop Rules */
+@media screen and (min-width: 540px) {
 }
