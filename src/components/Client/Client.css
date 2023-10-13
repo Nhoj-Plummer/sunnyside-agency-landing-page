@@ -1,24 +1,22 @@
 .client-container {
   flex: 1;
   margin-top: 3rem;
-  border: 1px solid;
+ 
 }
 
-.client-container_image {
-  border: 1px solid;
-}
+
 
 .client-container_image img {
   display: block;
   border-radius: 50%;
   margin: auto;
   transform: scale(0.5);
-  border: 1px solid red;
+
 }
 
 .client-container_text {
   text-align: center;
-  border: 1px solid blue;
+
 }
 
 .client-container_text p {
@@ -27,7 +25,6 @@
   margin: auto;
   line-height: 1.5rem;
   color: var(--color-vdgb);
-  border: 1px solid;
 }
 
 .client-container_text h2 {
