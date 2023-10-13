@@ -1,3 +1,17 @@
 .client-container {
   flex: 1;
+  text-align: center;
+  border: 1px solid;
+}
+
+.client-container_image {
+  border: 1px solid;
+}
+
+.client-container_image img {
+  display: block;
+  border-radius: 50%;
+  margin: auto;
+  transform: scale(0.5);
+  border: 1px solid red;
 }
