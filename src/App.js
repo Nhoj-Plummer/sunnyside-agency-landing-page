@@ -1,5 +1,5 @@
 import "./App.css"
-import {HeroSection, Body, Body2, Reviews} from "./containers/containersindex"
+import {HeroSection, Body, Body2, Reviews, Images} from "./containers/containersindex"
 
 function App() {
   return (
@@ -8,6 +8,7 @@ function App() {
       <Body />
       <Body2 />
       <Reviews />
+      <Images />
     </>
   )
 }
