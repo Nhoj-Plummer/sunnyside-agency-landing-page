@@ -1,4 +1,6 @@
 import React from "react"
+import "./Footer.css"
+import {GlobalInstagram, GlobalFacebook, GlobalPinterest, GlobalTwitter} from "../../assets/assetsglobal"
 
 const Footer = () => {
   return (
@@ -10,7 +12,10 @@ const Footer = () => {
         <a href="">Projects</a>
       </div>
       <div className="footer-container_image-links">
-        
+        <img src={GlobalFacebook} alt="facebook" />
+        <img src={GlobalTwitter} alt="twitter" />
+        <img src={GlobalInstagram} alt="instagram" />
+        <img src={GlobalPinterest} alt="pinterest" />
       </div>
     </div>
   )
