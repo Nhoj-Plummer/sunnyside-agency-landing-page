@@ -11,16 +11,16 @@ const Images = () => {
         <img src={MobileMilk} alt="img" />
       </picture>
       <picture>
-        <source media="(min-width: 541px)" srcSet={DesktopMilk} />
-        <img src={MobileMilk} alt="img" />
+        <source media="(min-width: 541px)" srcSet={DesktopOrange} />
+        <img src={MobileOrange} alt="img" />
       </picture>
       <picture>
-        <source media="(min-width: 541px)" srcSet={DesktopMilk} />
-        <img src={MobileMilk} alt="img" />
+        <source media="(min-width: 541px)" srcSet={DesktopCone} />
+        <img src={MobileCone} alt="img" />
       </picture>
       <picture>
-        <source media="(min-width: 541px)" srcSet={DesktopMilk} />
-        <img src={MobileMilk} alt="img" />
+        <source media="(min-width: 541px)" srcSet={DesktopSugarCubes} />
+        <img src={MobileSugarCubes} alt="img" />
       </picture>
     </div>
   )
