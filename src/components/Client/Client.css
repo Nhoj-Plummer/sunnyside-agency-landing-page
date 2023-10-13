@@ -1,5 +1,6 @@
 .client-container {
   flex: 1;
+  margin-top: 3rem;
   border: 1px solid;
 }
 
@@ -30,12 +31,14 @@
 }
 
 .client-container_text h2 {
+  
   font-family: var(--font-family-2);
   font-weight: 900;
   color: var(--color-vddb);
 }
 
 .client-container_text h4 {
+  margin-top: 0.25rem;
   font-family: var(--font-family-1);
   font-weight: 600;
   color: var(--color-gb);
@@ -47,11 +50,19 @@
   .client-container_text p {
     width: 80%;
   }
+
+  .client-container_text h2 {
+    margin-top: 2rem;
+  }
 }
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
   .client-container_text p {
-    max-width: 80%;
+    max-width: 61%;
+  }
+
+  .client-container_text h2 {
+    margin-top: 5rem;
   }
 }

@@ -1,15 +1,15 @@
 .reviews-container {
   display: flex;
+
   flex-wrap: wrap;
-  border: 1px solid;
 }
 
 .reviews-container h1 {
   font-family: var(--font-family-2);
   color: var(--color-dgb);
   font-weight: 900;
-  font-size: 26px;
-  letter-spacing: .5rem;
+  border: 1px;
+
   text-align: center;
   margin-top: 2rem;
   width: 100%;
@@ -21,8 +21,21 @@
   .reviews-container {
     flex-direction: column;
   }
+
+  .reviews-container h1 {
+    font-size: 20px;
+    letter-spacing: 5px;
+  }
 }
 
 /* Desktop Rules */
 @media screen and (min-width: 540px) {
+  .reviews-container {
+    padding: 10rem;
+  }
+
+  .reviews-container h1 {
+    letter-spacing: 0.5rem;
+    font-size: 26px;
+  }
 }
